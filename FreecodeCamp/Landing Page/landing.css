@@ -1,0 +1,49 @@
+body{
+    background-color: #eee;
+}
+#head-wrapper{
+    height: 200px;
+}
+#nav-bar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+.left{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+li{
+    padding: 20px 20px;
+    float: right;
+}
+li a{
+    text-decoration: none;
+
+}
+#home{
+    margin-top: 150px;
+    height: 200px;
+    text-align: center;
+}
+#About{
+    height: 400px;
+
+
+}
+#Contact{
+    height: 200px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+

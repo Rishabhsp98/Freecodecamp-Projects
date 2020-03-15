@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+  </head>
+
+  <body>
+    <div id="head">
+      <h1 id="title">FreeCodeCamp Survey form</h1>
+      <p id="Description">Take a short break from your busy Life!</p>
+    </div>
+    <form id="survey-form">
+      
+      <label for="name" id="name-label">Name-<input type="text"  id="name" required  placeholder="enter your name"></label><br><br>
+      <label for="email" id="email-label">Email-<input type="email"  id="email" required placeholder="Enter your email"></label><br><br>
+      <label for="age" id="number-label">Age- <input type="number" min="10" max="70" placeholder="Enter your Age" size="100"></label><br><br>
+      
+      <p>What do you like in Virat kohli:</p>
+      <label ><input type="radio" checked name="flling">Batsman</label><br>
+      <label><input type="radio"  name="flling">Captain</label><br>
+      <label><input type="radio" name="flling">Person</label><br><br>
+  
+      <select id="cars" name="cars">
+        <label for="cars">Choose a car:</label>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select><br><br><br>
+
+      <input type="textarea" id="textarea" placeholder="enter your comments"><br><br><br>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
